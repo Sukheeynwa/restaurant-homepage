@@ -1,0 +1,114 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: Poppins;
+}
+
+#logo {
+	height: 60px;
+	width: auto;
+}
+
+header {
+	background-color: white;
+	padding: 20px 40px;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#buttons {
+	display: flex;
+	gap: 50px;
+}
+
+#buttons button {
+	background-color: white;
+	border: none;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+#book {
+	border: none;
+	background-color: #1BB36F;
+	color: white;
+	height: 50px;
+	width: 160px;
+	border-radius: 25px;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+button:hover {
+	scale: 110%;
+	transition: 0.1s;
+}
+
+button:active {
+	scale: 90%;
+	transition: 0.1s;
+}
+
+body {
+	background-image: url(./images/Background.png);
+	background-size: cover;
+}
+
+#content {
+	position: relative;
+}
+
+h1 {
+	font-family: Bevan;
+	font-size: 40px;
+	padding-top: 20px;
+}
+
+h2 {
+	font-family: Shadows Into Light;
+	color: #F35232;
+	font-size: 40px;
+	margin-top: -20px;
+}
+
+#home-content {
+	padding-top: 40px;
+	padding-left: 40px;
+}
+
+#home-content div {
+	width: 540px;
+	padding-left: 40px;
+}
+
+#home-content p {
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+.plate {
+	position: absolute;
+	right: 0;
+	height: 400px;
+	padding-right: 240px;
+}
+
+.leaf {
+	height: 400px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+#home-content button {
+	height: 60px;
+	width: 200px;
+	border-radius: 30px;
+	font-size: 20px;
+}
